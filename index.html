@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kesehatan</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Kesehatan</div>
+            <ul class="nav-links">
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#menu">Tips Kesehatan</a></li>
+                <li><a href="#rekanan">Testimoni</a></li>
+                <li><a href="#kontak">Hubungi Kami</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#menu"><i class="fas fa-search"></i></a>
+                <a href="#kontak"><i class="fas fa-heart"></i></a>
+                <a href="#menu" class="btn-pesan">Pelajari</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="beranda">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Hidup Sehat<br>Masa Depan Cerah</h1>
+                <p>
+                    Kesehatan merupakan hal penting dalam kehidupan.
+                    Dengan menjaga pola makan, rutin berolahraga,
+                    dan istirahat yang cukup, kita dapat menjalani
+                    kehidupan yang lebih sehat dan bahagia.
+                </p>
+                <p>
+                    Mulailah kebiasaan hidup sehat dari sekarang.
+                    Sayangi tubuhmu karena kesehatan adalah investasi
+                    terbaik untuk masa depan.
+                </p>
+                <a href="#menu" class="btn-pesan-sekarang">Mulai Hidup Sehat</a>
+            </div>
+            <div class="hero-image">
+                <img src="c:\Libraries\Downloads\logoai-health-8570001_1920.jpg" alt="Hidup Sehat">
+            </div>
+        </div>
+    </section>
+
+    <!-- PILIHAN TIPS KESEHATAN -->
+    <section class="menu-section" id="menu">
+        <h2 class="section-title">Tips Menjaga Kesehatan</h2>
+        <div class="menu-grid">
+
+            <div class="menu-card">
+                <img src="c:\Libraries\Downloads\sontung57-meal-5921491_1920.jpg" alt="Makanan Sehat">
+                <h3>Makanan Sehat</h3>
+                <p>Konsumsi makanan bergizi seperti sayuran, buah-buahan, dan protein untuk menjaga kesehatan tubuh.</p>
+            </div>
+
+            <div class="menu-card">
+                <img src="c:\Libraries\Downloads\kimdaejeung-bicycle-8088372_1920.jpg" alt="Olahraga">
+                <h3>Rutin Berolahraga</h3>
+                <p>Olahraga secara teratur membantu menjaga kebugaran tubuh dan meningkatkan daya tahan tubuh.</p>
+            </div>
+
+            <div class="menu-card">
+                <img src="c:\Libraries\Downloads\congerdesign-bottle-2032980_1920.jpg" alt="Minum Air Putih">
+                <h3>Minum Air Putih</h3>
+                <p>Minum air putih yang cukup membantu tubuh tetap terhidrasi dan mendukung fungsi organ.</p>
+            </div>
+
+            <div class="menu-card">
+                <img src="c:\Libraries\Downloads\yacubee-cat-7533717_1920.jpg" alt="Istirahat">
+                <h3>Istirahat Cukup</h3>
+                <p>Tidur yang cukup membantu tubuh memulihkan energi dan menjaga kesehatan fisik maupun mental.</p>
+            </div>
+
+            <div class="menu-card">
+                <img src="c:\Libraries\Downloads\slavoljubovski-hand-washing-4818792_1920.jpg" alt="Menjaga Kebersihan">
+                <h3>Menjaga Kebersihan</h3>
+                <p>Mencuci tangan dan menjaga kebersihan lingkungan dapat membantu mencegah penyebaran penyakit.</p>
+            </div>
+
+            <div class="menu-card">
+                <img src="c:\Libraries\Downloads\3938030-woman-1958723_1920.jpg" alt="Kesehatan Mental">
+                <h3>Kesehatan Mental</h3>
+                <p>Menjaga pikiran tetap positif, mengelola stres, dan meluangkan waktu untuk diri sendiri sangat penting.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- BOOK A TABLE DIUBAH MENJADI KONSULTASI -->
+    <section class="book-section" id="book">
+        <h2 class="book-title">Konsultasi Kesehatan</h2>
+        <div class="book-container">
+
+            <div class="book-form">
+                <form>
+                    <input type="text" placeholder="Nama Lengkap" required>
+                    <input type="tel" placeholder="Nomor Telepon" required>
+                    <input type="email" placeholder="Email" required>
+
+                    <select required>
+                        <option value="" disabled selected>Pilih Topik Konsultasi</option>
+                        <option>Gizi dan Makanan</option>
+                        <option>Kebugaran Tubuh</option>
+                        <option>Kesehatan Mental</option>
+                        <option>Pola Tidur</option>
+                        <option>Kesehatan Umum</option>
+                    </select>
+
+                    <input type="date" required>
+
+                    <button type="submit" class="btn-book">
+                        KIRIM KONSULTASI
+                    </button>
+                </form>
+            </div>
+
+            <div class="book-map">
+                <iframe
+                    src="https://www.google.com/maps?q=puskesmas&output=embed"
+                    width="100%"
+                    height="100%"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- TESTIMONI -->
+    <section class="testimonial-section" id="rekanan">
+        <h2 class="testimonial-title">Apa Kata Mereka?</h2>
+
+        <div class="testimonial-grid">
+
+            <div class="testimonial-card">
+                <p>
+                    Website ini memberikan banyak informasi
+                    bermanfaat tentang cara menjaga kesehatan
+                    dan menerapkan pola hidup sehat.
+                </p>
+                <h4>Ananda Hafiz</h4>
+                <span>Pelajar</span>
+            </div>
+
+            <div class="testimonial-card">
+                <p>
+                    Informasinya mudah dipahami dan membantu
+                    saya lebih memperhatikan pola makan,
+                    olahraga, serta waktu istirahat.
+                </p>
+                <h4>Kenzy Putra Widodo</h4>
+                <span>Pengunjung</span>
+            </div>
+
+
+            <div class="testimonial-card">
+            <p>Tips hidup sehat di website ini mengingatkan saya untuk lebih rajin menjaga kebersihan diri.</p>
+            <h4>Raffi Rahmad</h4>
+            <span>Pengunjung</span>
+        </div>
+
+
+        <div class="testimonial-card">
+            <p>Website yang bagus dan informatif. Saya mendapatkan banyak pengetahuan baru tentang kesehatan.</p>
+            <h4>Ariel Noa</h4>
+            <span>Pengunjung</span>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="kontak">
+        <div class="footer-container">
+
+            <div class="footer-col">
+                <h3>Hubungi Kami</h3>
+                <p><i class="fas fa-map-marker-alt"></i> SMK Negeri 2 Mojokerto</p>
+                <p><i class="fas fa-phone"></i> 087752486122</p>
+                <p><i class="fas fa-envelope"></i> ibakdim028@gmail.com</p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Kesehatan</h3>
+                <p>Informasi dan Edukasi Hidup Sehat</p>
+
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Jam Informasi</h3>
+                <p>Senin - Jumat</p>
+                <p>08.00 - 16.00 WIB</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 All Rights Reserved By Kesehatan</p>
+        </div>
+    </footer>
+
+</body>
+  </html>
